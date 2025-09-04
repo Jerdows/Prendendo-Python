@@ -1,0 +1,56 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Jerdows/Prendendo-Python/blob/main/aulda%20de%20Python%20com%20Colab%20web\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "idade = 70\n",
+        "if idade < 18:\n",
+        "  print(\"Menor de idade\")\n",
+        "elif idade >= 18 and idade < 65:\n",
+        "    print(\"Adulto\")\n",
+        "else:\n",
+        "      print (\"Idoso\")"
+      ],
+      "metadata": {
+        "id": "lUYiqVvhqHL9",
+        "outputId": "8fa839ed-37c8-4795-fe1a-e4524ba973e6",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Idoso\n"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "colab": {
+      "name": "Conheça o Colab",
+      "provenance": [],
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "display_name": "Python 3",
+      "name": "python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 0
+}
